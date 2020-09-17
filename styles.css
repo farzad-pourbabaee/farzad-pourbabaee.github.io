@@ -1,0 +1,75 @@
+body {
+      font-family: macho, sans-serif;
+      /*font-size: 15px;*/
+     	background: #eaeaea;/*#fff1e5;*/
+     	left-margin: 2em;
+    	padding: 2em 5em 2em 5em;
+    }
+
+
+.collapsible {
+      font-family: macho, sans-serif;
+	    color: #003262;
+      padding: 0.2em;
+      border: none;
+      outline: none;
+      cursor: pointer;
+  	  text-align: left;
+  	  font-size: 100%;
+  	  background: #eaeaea; /*#fff1e5;*/
+  	}
+
+.active, .collapsible:hover {}
+
+.collapsible:after {
+      /*font-family: "Font Awesome 5 Free";*/
+      content: "+"; 
+      margin-left: 3px;
+      /*font-weight: 600;*/
+    }
+
+.active:after {
+      /*font-family: "Font Awesome 5 Free";*/
+      content: "-";
+ 		  margin-left: 3px;
+      /*font-weight: 600;*/
+	  }
+
+
+.content {
+      font-family: macho, sans-serif;
+		  /*font-weight: 500;*/
+      text-align: justify;
+  		line-height: 25px;
+  		background: #fcfcfc;
+ 		  max-height: 0;
+  		overflow: hidden;
+  		border-radius: 15px;
+  		padding: 0 18px;
+  		transition: max-height 0.2s ease-in-out;
+  	}
+   
+
+figure {
+      float: right;
+      width: 30%;
+      text-align: center;
+      font-size: 80%;
+      margin: 0.5em;
+      padding: 0.5em;
+    }
+
+
+figure img {
+      max-width: 200px;
+      height: auto;
+    }
+
+
+
+li {
+      padding-bottom: 0.2em;
+    }
+a  {
+    	text-decoration: none;
+    }
