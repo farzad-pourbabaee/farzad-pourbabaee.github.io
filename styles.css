@@ -23,14 +23,14 @@ body {
 
 .collapsible:after {
       /*font-family: "Font Awesome 5 Free";*/
-      content: "[+]"; 
+      content: "+"; 
       margin-left: 3px;
       /*font-weight: 600;*/
     }
 
 .active:after {
       /*font-family: "Font Awesome 5 Free";*/
-      content: "[-]";
+      content: "-";
  		  margin-left: 3px;
       /*font-weight: 600;*/
 	  }
