@@ -22,18 +22,18 @@ body {
 .active, .collapsible:hover {}
 
 .collapsible:after {
-      /*font-family: "Font Awesome 5 Free";*/
-      content: "[+]"; 
+      font-family: "Font Awesome 5 Free";
+      content: "\f0fe"; 
       margin-left: 3px;
-      padding: 0.1em;
+      padding: 0.2em;
       /*font-weight: 600;*/
     }
 
 .active:after {
-      /*font-family: "Font Awesome 5 Free";*/
-      content: "[-]";
+      font-family: "Font Awesome 5 Free";
+      content: "\f146";
  		  margin-left: 3px;
-      padding: 0.1em;
+      padding: 0.2em;
       /*font-weight: 600;*/
 	  }
 
