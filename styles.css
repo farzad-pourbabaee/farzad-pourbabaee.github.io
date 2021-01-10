@@ -58,3 +58,18 @@ li {
 a  {
     	text-decoration: none;
     }
+
+ul.hyphen {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}   
+
+ul.hyphen li {
+  padding-left: 1em;
+}
+
+ul.hyphen li::before {
+  content: "\2013";
+  padding-right: 8px;
+}
