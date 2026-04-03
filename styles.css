@@ -1,7 +1,9 @@
 body {
       font-family: macho, sans-serif;
       /*font-size: 15px;*/
-     	background: #eaeaea;/*#fff1e5;*/
+     	/*background: #eaeaea;*//*#fff1e5;*/
+     	/*background: #F5F4EF;*/
+     	background: #e8e6dc;
      	left-margin: 2em;
     	padding: 2em 5em 2em 5em;
     }
@@ -16,7 +18,9 @@ body {
       cursor: pointer;
   	  text-align: left;
   	  font-size: 100%;
-  	  background: #eaeaea; /*#fff1e5;*/
+  	  /*background: #eaeaea;*/ /*#fff1e5;*/
+  	  /*background: #F5F4EF;*/
+  	  background: #e8e6dc;
   	}
 
 .active, .collapsible:hover {}
@@ -183,7 +187,7 @@ ul.tabbernav li a
  border-bottom: 1px none black;
  border-bottom-right-radius: 0px;
  border-bottom-left-radius: 0px;
- background: #eaeaea;
+ background: #e8e6dc;
  text-decoration: none;
 }
 
